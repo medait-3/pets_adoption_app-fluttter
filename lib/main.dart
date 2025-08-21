@@ -123,7 +123,7 @@ class _MyAppState extends State<MyApp> {
               var snackBar = SnackBar(content: Text('save'));
         ScaffoldMessenger.of(context).showSnackBar(snackBar);
 //add/2
-      // showPrintedMessage('success', 'saved to documents');
+      // s&howPrintedMessage('success', 'saved to documents');
     } catch (e) {
               var snackBar = SnackBar(content: Text('Hello World'));
         ScaffoldMessenger.of(context).showSnackBar(snackBar);
